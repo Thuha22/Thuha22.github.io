@@ -1,0 +1,98 @@
+.footer-destop {
+    position: relative;
+    .top-footer {
+        background: linear-gradient( 180deg, #283991 0%, #202E75 100%);
+        padding: 10px 8.33% 40px 8.33%;
+        display: flex;
+        img {
+            padding-right: 90px;
+        }
+    }
+    .title-row {
+        font-family: "UTM Avo", Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.11;
+        color: #fff;
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+    .footer-main {
+        background: #283991;
+        .row-container {
+            display: flex;
+            padding: 40px 8.33% 60px 8.33%;
+        }
+        .box-footer1 {
+            width: 30%;
+            padding-right: 15px;
+            position: relative;
+            .box-item {
+                padding-left: 40px;
+                position: relative;
+                margin-bottom: 19px;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .box-23 {
+                display: inline-block;
+                padding-right: 20px;
+                .text {
+                    padding-top: 5px;
+                }
+            }
+            .box-connect {
+                margin-top: 20px;
+                a {
+                    margin-right: 15px;
+                }
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 1px;
+                height: 100%;
+                background: linear-gradient( 180deg, rgba(69, 87, 177, 0) 0%, #4557B1 46.88%, rgba(69, 87, 177, 0) 100%);
+            }
+        }
+        .box-footer2 {
+            width: 70%;
+            padding: 0 0 0 8%;
+            ul li {
+                list-style: none;
+            }
+        }
+    }
+    .title {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 2.00;
+        color: #fff;
+        margin-bottom: 36px;
+    }
+    .text {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.58;
+        color: #fff;
+    }
+    .text-copy {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 1.7066;
+        padding: 17px 20px 13px;
+        color: #1E2F86;
+        text-align: center;
+    }
+}

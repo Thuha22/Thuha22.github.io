@@ -1,0 +1,123 @@
+.footer-destop {
+  position: relative;
+}
+
+.footer-destop .top-footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#283991), to(#202E75));
+  background: linear-gradient(180deg, #283991 0%, #202E75 100%);
+  padding: 10px 8.33% 40px 8.33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-destop .top-footer img {
+  padding-right: 90px;
+}
+
+.footer-destop .title-row {
+  font-family: "UTM Avo", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.11;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.footer-destop .footer-main {
+  background: #283991;
+}
+
+.footer-destop .footer-main .row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 8.33% 60px 8.33%;
+}
+
+.footer-destop .footer-main .box-footer1 {
+  width: 30%;
+  padding-right: 15px;
+  position: relative;
+}
+
+.footer-destop .footer-main .box-footer1 .box-item {
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.footer-destop .footer-main .box-footer1 .box-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-destop .footer-main .box-footer1 .box-23 {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.footer-destop .footer-main .box-footer1 .box-23 .text {
+  padding-top: 5px;
+}
+
+.footer-destop .footer-main .box-footer1 .box-connect {
+  margin-top: 20px;
+}
+
+.footer-destop .footer-main .box-footer1 .box-connect a {
+  margin-right: 15px;
+}
+
+.footer-destop .footer-main .box-footer1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(69, 87, 177, 0)), color-stop(46.88%, #4557B1), to(rgba(69, 87, 177, 0)));
+  background: linear-gradient(180deg, rgba(69, 87, 177, 0) 0%, #4557B1 46.88%, rgba(69, 87, 177, 0) 100%);
+}
+
+.footer-destop .footer-main .box-footer2 {
+  width: 70%;
+  padding: 0 0 0 8%;
+}
+
+.footer-destop .footer-main .box-footer2 ul li {
+  list-style: none;
+}
+
+.footer-destop .title {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2.00;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.footer-destop .text {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #fff;
+}
+
+.footer-destop .text-copy {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.7066;
+  padding: 17px 20px 13px;
+  color: #1E2F86;
+  text-align: center;
+}
+/*# sourceMappingURL=footer-destop.css.map */

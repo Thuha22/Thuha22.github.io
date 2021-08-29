@@ -1,0 +1,162 @@
+.page-gioi-thieu {
+  position: relative;
+}
+
+.banner-page {
+  position: relative;
+}
+
+.banner-page .box-text {
+  position: absolute;
+  top: 30%;
+  left: 12.5vw;
+}
+
+.banner-page .box-text .link-trang {
+  margin-bottom: 5px;
+}
+
+.banner-page .box-text .link-trang .icon-link {
+  margin-bottom: 10px;
+}
+
+.banner-page .box-text .link-trang .text-link {
+  font-family: SVN-Gotham;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 2.57px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.banner-page .box-text .link-trang .link-1 {
+  color: #EE9B1E;
+}
+
+.banner-page .box-text .tieu-de {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner-page .box-text .tieu-de .title-row {
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 1.11;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+.container-page .box-tieude {
+  padding-top: 6.25vw;
+}
+
+.container-page .title-row {
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 1.11;
+  color: #303030;
+  margin-bottom: 40px;
+}
+
+.container-page .content {
+  font-family: "SVN-Gotham Book", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6616;
+  text-align: justify;
+  color: #2E2E2E;
+}
+
+.container-page .img-col {
+  position: relative;
+  float: right;
+}
+
+.container-page .row-container {
+  position: relative;
+  padding: 0 6.25%;
+  margin: 0 6.25vw;
+  background: #ffffff;
+}
+
+.row-chung-toi {
+  position: relative;
+  padding-top: 130px;
+  margin: -65px 0 0 0;
+  padding-bottom: 80px;
+}
+
+.row-tam-nhin {
+  position: relative;
+}
+
+.row-tam-nhin .khoi-2 {
+  position: absolute;
+  right: -15%;
+  top: -60%;
+}
+
+.row-tam-nhin .img-col {
+  position: relative;
+  float: left;
+}
+
+.row-gia-tri {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.row-gia-tri .one-box {
+  padding: 10px;
+}
+
+.row-gia-tri .noi-dung-box {
+  background: #fff;
+  height: 100%;
+  padding: 45px 45px 50px 40px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  position: relative;
+}
+
+.row-gia-tri .noi-dung-box .title-box {
+  font-family: "UTM Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.034;
+  color: #4A4A4A;
+}
+
+.row-gia-tri .noi-dung-box .content-box {
+  font-family: SVN-Gotham;
+  font-style: normal;
+  font-weight: 325;
+  font-size: 13px;
+  line-height: 1.36;
+  color: #717171;
+}
+
+.row-gia-tri .noi-dung-box .icon-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px 28px;
+  background: linear-gradient(188.07deg, #FFA31A -6.48%, #F04D22 106.95%);
+  border-radius: 41px 0px 6px;
+}
+
+.row-gia-tri .khoi-2 {
+  position: absolute;
+  left: -7.25%;
+  bottom: 10%;
+}
+/*# sourceMappingURL=page-gioi-thieu.css.map */

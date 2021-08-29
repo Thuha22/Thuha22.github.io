@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  image-rendering: auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-menu-destop {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.header-menu-destop a {
+  color: #fff;
+}
+
+.header-upper {
+  height: 75px;
+  position: relative;
+}
+
+.header-upper > .row {
+  height: 100%;
+}
+
+.header-upper > .row > div[class^="col"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-upper .header-logo {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.header-upper .header-logo a {
+  display: inline-block;
+}
+
+.header-upper .header-search {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.header-upper .header-search .form-input {
+  width: 100%;
+  border-radius: 4px;
+  background: #EAEAEA;
+  position: relative;
+  color: #666;
+}
+
+.header-upper .header-search .form-input input {
+  color: #6C6C8C;
+  height: 40px;
+  line-height: 38px;
+  border: none;
+  background: none;
+  padding: 0 100px 0 15px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.header-upper .header-search .form-input .button-search {
+  width: 43px;
+  background: #283991;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+}
+
+.header-upper .header-search .form-input .button-search::before {
+  background: url(../../img/icon-loupe-active-min.png) center center no-repeat;
+  background-size: 12px 12px;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.header-upper .header-search .form-input .button-search::after {
+  background: linear-gradient(188.07deg, #FFA31A -6.48%, #F04D22 106.95%);
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header-upper .header-user {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-upper .header-user .user-dn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 48%;
+  height: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-upper .header-user .user-dn .header-user-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  margin-right: 7px;
+}
+
+.header-upper .header-user .user-dn .header-user-icon img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header-upper .header-user .user-dn .header-user-icon img.white {
+  visibility: hidden;
+}
+
+.header-upper .header-user .user-dn .header-user-text {
+  position: relative;
+  padding-bottom: 7px;
+}
+
+.header-upper .header-user .user-dn .header-user-text .user-title {
+  display: block;
+  font-family: "SVN-Gotham", Arial, Helvetica, sans-serif;
+  font-weight: 450;
+  font-size: 13px;
+  line-height: 152%;
+  text-transform: uppercase;
+  color: #4A4A4A;
+}
+
+.header-upper .header-user .user-dn .header-user-text .user-note {
+  display: block;
+  font-family: "SVN-Gotham", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 325;
+  font-size: 9px;
+  line-height: 152%;
+  color: #ABABAB;
+}
+
+.header-upper .header-user .user-dn._color {
+  background: linear-gradient(188.07deg, #FFA31A -6.48%, #F04D22 106.95%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-upper .header-user .user-dn._color .user-title,
+.header-upper .header-user .user-dn._color .user-note {
+  color: white;
+}
+
+.header-upper .header-user .user-dn._color .header-user-icon img.dark {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header-upper .header-user .user-dn._color .header-user-icon img.white {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header-main-menu {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(#283991), to(#202E75));
+  background: linear-gradient(180deg, #283991 0%, #202E75 100%);
+}
+
+.header-main-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.header-main-menu ul li {
+  width: 100%;
+  list-style-type: none;
+  position: relative;
+}
+
+.header-main-menu ul li .sub-menu {
+  display: none;
+  background: #0F1A51;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  padding-left: 20%;
+  color: #fff;
+  text-align: left;
+}
+
+.header-main-menu ul li .sub-menu .menu-item {
+  padding: 10px 0;
+  position: relative;
+}
+
+.header-main-menu ul li .sub-menu .menu-item:hover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -50px;
+  background-image: url(../../img/money7.png);
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 31px;
+}
+
+.header-main-menu ul li .sub-menu a {
+  font-family: "UTM Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 167%;
+  color: #8893CF;
+  display: block;
+}
+
+.header-main-menu ul li:hover {
+  background: #0F1A51;
+}
+
+.header-main-menu ul li:hover .sub-menu {
+  display: block;
+}
+
+.header-main-menu ul li:hover .mega-menu {
+  display: block;
+}
+
+.header-main-menu ul li:hover .menu-item-has-children > a::after {
+  background-image: url(img/right-arrow.png);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.header-main-menu ul li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 152%;
+  height: 55px;
+  color: white;
+  border-right: 1px solid #1F2C6B;
+}
+
+.mega-menu {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  background-color: #0F1A51;
+  color: white;
+  padding-left: 6vw;
+  padding-right: 2.7vw;
+  padding-top: 55px;
+  padding-bottom: 37px;
+}
+
+.mega-menu .mega-header {
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 111%;
+  position: relative;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.mega-menu .mega-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -20px;
+  right: 0;
+  height: 1px;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-0.03%, rgba(255, 255, 255, 0)), color-stop(51.28%, rgba(255, 255, 255, 0.5)), color-stop(94.69%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) -0.03%, rgba(255, 255, 255, 0.5) 51.28%, rgba(255, 255, 255, 0) 94.69%);
+}
+
+.mega-menu .mega-body {
+  position: relative;
+  height: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.mega-menu .mega-body .sub-menu {
+  padding-left: 0;
+  position: relative;
+}
+
+.mega-menu .mega-body .sub-menu .menu-item {
+  position: relative;
+}
+
+.mega-menu .mega-body a {
+  font-style: normal;
+  font-weight: 325;
+  font-size: 12px;
+  line-height: 121.16%;
+  color: #8893CF;
+  display: block;
+  min-height: 2.5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border: none;
+}
+
+.mega-menu .row {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.mega-menu .row > .col {
+  min-width: 12.5vw;
+  max-width: unset;
+  margin-right: 35px;
+}
+/*# sourceMappingURL=header-destop.css.map */

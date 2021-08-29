@@ -1,0 +1,141 @@
+.page-gioi-thieu {
+    position: relative;
+}
+
+.banner-page {
+    position: relative;
+    .box-text {
+        position: absolute;
+        top: 30%;
+        left: 12.5vw;
+        .link-trang {
+            margin-bottom: 5px;
+            .icon-link {
+                margin-bottom: 10px;
+            }
+            .text-link {
+                font-family: SVN-Gotham;
+                font-style: normal;
+                font-weight: 450;
+                font-size: 15px;
+                line-height: 2.57px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            .link-1 {
+                color: #EE9B1E;
+            }
+        }
+        .tieu-de {
+            display: flex;
+            .title-row {
+                font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 1.11;
+                color: #FFFFFF;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.container-page {
+    .box-tieude {
+        padding-top: 6.25vw;
+    }
+    .title-row {
+        font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 1.11;
+        color: #303030;
+        margin-bottom: 40px;
+    }
+    .content {
+        font-family: "SVN-Gotham Book", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.6616;
+        text-align: justify;
+        color: #2E2E2E;
+    }
+    .img-col {
+        position: relative;
+        float: right;
+    }
+    .row-container {
+        position: relative;
+        padding: 0 6.25%;
+        margin: 0 6.25vw;
+        background: #ffffff;
+    }
+}
+
+.row-chung-toi {
+    position: relative;
+    padding-top: 130px;
+    margin: -65px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.row-tam-nhin {
+    position: relative;
+    .khoi-2 {
+        position: absolute;
+        right: -15%;
+        top: -60%;
+    }
+    .img-col {
+        position: relative;
+        float: left;
+    }
+}
+
+.row-gia-tri {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    .one-box {
+        padding: 10px;
+    }
+    .noi-dung-box {
+        background: #fff;
+        height: 100%;
+        padding: 45px 45px 50px 40px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+        position: relative;
+        .title-box {
+            font-family: "UTM Avo", Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 1.034;
+            color: #4A4A4A;
+        }
+        .content-box {
+            font-family: SVN-Gotham;
+            font-style: normal;
+            font-weight: 325;
+            font-size: 13px;
+            line-height: 1.36;
+            color: #717171;
+        }
+        .icon-box {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            padding: 15px 28px;
+            background: linear-gradient( 188.07deg, #FFA31A -6.48%, #F04D22 106.95%);
+            border-radius: 41px 0px 6px;
+        }
+    }
+    .khoi-2 {
+        position: absolute;
+        left: -7.25%;
+        bottom: 10%;
+    }
+}

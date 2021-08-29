@@ -1,0 +1,245 @@
+.page-trung-tam-ho-tro {
+  position: relative;
+}
+
+.page-trung-tam-ho-tro ul,
+.page-trung-tam-ho-tro ol {
+  margin: 0 0 15px;
+  padding-left: 20px;
+}
+
+.page-trung-tam-ho-tro .box-banner {
+  position: relative;
+  width: 100%;
+}
+
+.page-trung-tam-ho-tro .box-banner .title-banner {
+  width: 25%;
+  position: absolute;
+  bottom: 36px;
+  left: 0;
+  z-index: 5;
+}
+
+.page-trung-tam-ho-tro .box-banner .title-banner a {
+  padding-left: 25%;
+  padding-right: 10px;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+}
+
+.page-trung-tam-ho-tro .box-banner .title-banner h3 {
+  display: inline-block;
+  font-family: "SVN-Gotham", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.page-trung-tam-ho-tro .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5vw;
+}
+
+.page-trung-tam-ho-tro .box-container #post-huong-dan,
+.page-trung-tam-ho-tro .box-container #post-dieu-khoan {
+  display: none;
+}
+
+.page-trung-tam-ho-tro .box-container #post-huong-dan:target,
+.page-trung-tam-ho-tro .box-container #post-dieu-khoan:target {
+  display: block;
+}
+
+.page-trung-tam-ho-tro .menu-page {
+  width: 25%;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  padding-left: 6%;
+}
+
+.page-trung-tam-ho-tro .menu-page ul {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.page-trung-tam-ho-tro .menu-page li {
+  font-family: "SVN-Gotham Book", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.41;
+  color: #767676;
+  margin-bottom: 15px;
+  display: block;
+  position: relative;
+}
+
+.page-trung-tam-ho-tro .menu-page li:hover a {
+  color: #FF851C;
+}
+
+.page-trung-tam-ho-tro .menu-page li:hover a::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.page-trung-tam-ho-tro .menu-page li a::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 1px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out 0s;
+  transition: -webkit-transform 0.3s ease-in-out 0s;
+  transition: transform 0.3s ease-in-out 0s;
+  transition: transform 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s;
+  background-color: #FF851C;
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.page-trung-tam-ho-tro .menu-page .title-small {
+  font-family: "SVN-Gotham", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #767676;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #E2E2E2;
+  margin-bottom: 8px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.page-trung-tam-ho-tro .menu-page .title-post {
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.11;
+  color: #11193E;
+  margin-bottom: 28px;
+  margin-top: 40px;
+  padding-bottom: 28px;
+  position: relative;
+}
+
+.page-trung-tam-ho-tro .menu-page .title-post::before {
+  content: '';
+  position: absolute;
+  bottom: -12.5px;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  background: url(../img/icon-title.png);
+}
+
+.page-trung-tam-ho-tro .menu-page .title-post::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  width: 125%;
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(99.32%, #646464));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #646464 99.32%);
+}
+
+.page-trung-tam-ho-tro .bai-viet {
+  display: block;
+  padding: 0;
+  margin-right: 25px;
+}
+
+.page-trung-tam-ho-tro .content-page {
+  width: 75%;
+  padding: 95px 5% 60px 4%;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  margin-top: -68px;
+}
+
+.page-trung-tam-ho-tro .box-content .title-post {
+  padding-bottom: 30px;
+  margin: 0;
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.11;
+  color: #11193E;
+  position: relative;
+}
+
+.page-trung-tam-ho-tro .box-content .content {
+  padding-bottom: 50px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.page-trung-tam-ho-tro .box-content .post-sharing {
+  margin-top: 20px;
+}
+
+.page-trung-tam-ho-tro .box-content .post-sharing label {
+  margin-bottom: 0;
+  margin-right: 15px;
+  font-family: "SVN-Avo", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.7066;
+  text-align: justify;
+  color: #555555;
+}
+
+.page-trung-tam-ho-tro .box-content .post-sharing ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.page-trung-tam-ho-tro .box-content .post-sharing ul li {
+  display: inline-block;
+  position: relative;
+  height: 41px;
+  width: 41px;
+  margin-right: 10px;
+}
+
+.page-trung-tam-ho-tro .box-content .post-sharing ul a {
+  border: 1px solid #DFDFDF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #12358C;
+}
+
+.page-trung-tam-ho-tro .box-content .post-sharing ul a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=trung-tam-ho-tro.css.map */
