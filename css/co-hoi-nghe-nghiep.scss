@@ -1,0 +1,48 @@
+.page-co-hoi-nghe-nghiep {
+    .box-banner {
+        position: relative;
+        .box-text {
+            color: #FFFFFF;
+            position: absolute;
+            top: 12vw;
+            left: 56.25%;
+            p {
+                font-family: SVN-Avo;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0em;
+            }
+        }
+    }
+    .title-row {
+        font-family: SVN-Avo;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .button-dk-ngay {
+        border-radius: 50px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        padding: 5px 50px 5px 40px;
+        background: linear-gradient( 188.07deg, #FFA31A -6.48%, #F04D22 106.95%);
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &::after {
+            content: '';
+            background-image: url(../img/mui-ten-dai.png);
+            position: absolute;
+            top: 30%;
+            right: 30px;
+            width: 14px;
+            height: 14px;
+        }
+    }
+}
